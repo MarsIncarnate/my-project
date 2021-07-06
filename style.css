@@ -147,6 +147,26 @@ main section {
   margin: auto;
 } 
 
+.features-icon { 
+  margin-bottom: 1.5em;
+} 
+
+[class*='features-1'] { 
+  margin-bottom: 5em;
+} 
+[class*='features-2'] h2 { 
+  margin-bottom: 0.5em;
+} 
+[class*='features-3'] p { 
+  width: 80%; 
+  margin: 0 auto; 
+  line-height: 1.6;
+} 
+
+.features-4 p { 
+  width: 85%;
+} 
+
 .services { 
   color: white; 
   margin-bottom: 4em; 
@@ -403,7 +423,7 @@ main .feature {
   margin-left: 5%; 
 } 
 
-.services div { 
+.services div > * { 
   margin: 0; 
   margin-bottom: 0.5em; 
 } 
@@ -465,7 +485,7 @@ main .feature {
   width: 220px; 
 } 
 
-.footer div { 
+.footer > div { 
   max-width: 1200px; 
   margin: 0 auto; 
 } 
@@ -479,3 +499,5 @@ main .feature {
 .footer-container .social { 
   display: flex; 
   justify-content: space-around; }}
+
+
